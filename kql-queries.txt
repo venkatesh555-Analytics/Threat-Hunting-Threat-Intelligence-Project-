@@ -1,0 +1,9 @@
+rule.level > 3
+
+data.srcip : *
+
+rule.description : "authentication failure"
+
+agent.name : *
+
+@timestamp : *
